@@ -32,7 +32,7 @@ A stunning, interactive portfolio website that replicates the macOS Big Sur inte
 
 ## 🚀 Live Demo
 
-**[View Live Portfolio](https://your-portfolio-url.vercel.app)** _(will be added after deployment)_
+**[View Live Portfolio](https://manishportfolio-gamma.vercel.app)** 🌐
 
 ## 📸 Screenshots
 
@@ -200,9 +200,9 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 👨‍💻 Author
 
 **Manish Kumar**
-- Portfolio: [Your Portfolio URL]
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/YOUR_PROFILE)
+- Portfolio: [manishportfolio-gamma.vercel.app](https://manishportfolio-gamma.vercel.app)
+- GitHub: [@Manish7194](https://github.com/Manish7194)
+- LinkedIn: [Manish Kumar](https://www.linkedin.com/in/manish-kumar1108/)
 
 ## 🙏 Acknowledgments
 
@@ -213,8 +213,9 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 📧 Contact
 
 For any questions or suggestions, feel free to reach out:
-- Email: your.email@example.com
-- LinkedIn: [Your Profile](https://linkedin.com/in/YOUR_PROFILE)
+- Portfolio: [manishportfolio-gamma.vercel.app](https://manishportfolio-gamma.vercel.app)
+- LinkedIn: [Manish Kumar](https://www.linkedin.com/in/manish-kumar1108/)
+- GitHub: [@Manish7194](https://github.com/Manish7194)
 
 ---
 
