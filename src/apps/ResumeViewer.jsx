@@ -2,9 +2,13 @@ import React from 'react';
 import { Download } from 'lucide-react';
 
 const ResumeViewer = () => {
+    // Add cache-busting timestamp to force browser to fetch latest PDF
+    const cacheBuster = `?t=${Date.now()}`;
+    const resumeUrl = `/Resume.pdf${cacheBuster}`;
+
     const handleDownload = () => {
         const link = document.createElement('a');
-        link.href = '/Resume.pdf';
+        link.href = resumeUrl;
         link.download = 'Manish_Kumar_Resume.pdf';
         document.body.appendChild(link);
         link.click();
@@ -29,7 +33,7 @@ const ResumeViewer = () => {
             {/* PDF Viewer */}
             <div className="flex-1 overflow-hidden">
                 <iframe
-                    src="/Resume.pdf"
+                    src={resumeUrl}
                     className="w-full h-full border-0"
                     title="Resume PDF"
                 />
