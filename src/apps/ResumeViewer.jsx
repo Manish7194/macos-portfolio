@@ -2,9 +2,10 @@ import React from 'react';
 import { Download } from 'lucide-react';
 
 const ResumeViewer = () => {
-    // Add cache-busting timestamp to force browser to fetch latest PDF
-    const cacheBuster = `?t=${Date.now()}`;
-    const resumeUrl = `/Resume.pdf${cacheBuster}`;
+    // Use versioned filename to ensure latest resume is loaded
+    // Update this version number when you upload a new resume
+    const RESUME_VERSION = 'v2';
+    const resumeUrl = `/Resume_${RESUME_VERSION}.pdf`;
 
     const handleDownload = () => {
         const link = document.createElement('a');
